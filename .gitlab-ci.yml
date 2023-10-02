@@ -1,0 +1,17 @@
+default:
+  image: python:latest
+
+build_program:
+  stage: build
+  only:
+    - main
+  script:
+    - pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+    - pip install pyinstaller
+    - pyinstaller -F main.py
+  
+  artifacts:
+    paths:
+      - ID.txt
+      - main.py
+      - os.protein.fasta
