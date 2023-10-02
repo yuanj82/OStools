@@ -9,6 +9,7 @@ build_program:
     - pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
     - pip install pyinstaller
     - pyinstaller -F main.py
+    - mv dist/* ./
   
   artifacts:
     paths:
