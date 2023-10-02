@@ -13,5 +13,5 @@ build_program:
   artifacts:
     paths:
       - ID.txt
-      - main.py
+      - main.exe
       - os.protein.fasta
