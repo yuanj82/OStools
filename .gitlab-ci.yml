@@ -10,6 +10,8 @@ build_program:
     - pip install pyinstaller
     - pyinstaller -F main.py
     - mv dist/* ./
+    - ls
+    - ls dist
   
   artifacts:
     paths:
