@@ -4,9 +4,11 @@ A Python exercise project for beginners.A simple rice ID conversion and sequence
 
 ## Usage
 
-If it is used for rice, simply [download](https://jihulab.com/YuanJ2003/id-converter/-/archive/main/id-converter-main.zip) the secondary repository and run `main.py` or `main.exe`.
+Before starting, you need to install Python first. Click [here](https://mirrors.huaweicloud.com/python/3.8.8/python-3.8.8.exe) to download Python 3.8 through Huawei Cloud Express. Please note that you need to check to add Python to the environment variable, and all other processes will default.
 
-If it is used for other species, you need to prepare the ID correspondence and genome protein sequence, and modify the method of modifying ID in lines `33-36` of `main.py`, import new files, and code related to other ID representations.
+<img src="assets/python-install.png" style="width:500px" align=center/>
+
+After installing Python, double-click to run the start.bat script to start using it.
 
 ## Data sources
 
