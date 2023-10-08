@@ -8,7 +8,7 @@ Before starting, you need to install Python first. Click [here](https://mirrors.
 
 <img src="assets/python-install.png" style="width:500px" align=center/>
 
-After installing Python, double-click to run the start.bat script to start using it., Alternatively, you can run main.py directly.
+After installing Python, double-click to run the 'start.bat' script to start using it., Alternatively, you can run main.py directly.
 
 ## Data sources
 
